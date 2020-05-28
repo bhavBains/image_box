@@ -1,0 +1,13 @@
+.image-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 0 0.5rem;
+  grid-auto-rows: 5px;
+}
+
+.image-list img {
+  width: 250px;
+}
+/*# sourceMappingURL=main.css.map */
